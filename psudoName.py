@@ -7,11 +7,14 @@ print ('Everyone here on the team in Stonewick, Scotland, was loosing hope anybo
 print ('It looks like a number of us owe Sammy around 5 pounds, anyways please use this as you see fit.')
 
 """List of the Silly"""
-first_N = ('Action', 'Hannah', 'Leo', 'Amber', 'Carson', 'Malardy', 'Wyatt', 'Terry')
+first_N = ('Action', 'Hannah', 'Leo', 'Amber', 'Carson', 'Malardy',
+           'Wyatt', 'Terry', 'Taka', 'Sai', 'Gata', 'Sachi', 'Sasori', 'Ptera', 'Kamen Rider')
 
-nick_N = ('"Corn Nut"', '"Sonny"', 'Rocket', 'Vulture', '"Buttercup"')
+nick_N = ('"Corn Nut"', '"Sonny"', 'Rocket', 'Vulture', '"Buttercup"',
+          'Tora', 'Kanga', 'Gorira', 'Panda', 'Kujaku', 'Kamakiri', 'Trikera', 'Ganbariding')
 
-last_N = ('Aqua', 'Castle', 'Peters', 'Steps', 'Daybreak', 'Fourteen')
+last_N = ('Aqua', 'Castle', 'Peters', 'Steps', 'Daybreak', 'Fourteen',
+          'Batta', 'Tako', 'Sou', 'Condor', 'Tyrano', 'Kuuga', 'Kabuto', 'Den-O', 'Faiz')
 
 """The thing that does something with the silly"""
 while True:
@@ -25,9 +28,9 @@ while True:
 	print('{} {} {}'.format(first_Name, nick_Name, sur_Name))
 	print ('\n')
 
-	try_Again = input("Is this silly enough for you? If so press 'x' otherwise the enter key. \n")
+	try_Again = input("Is this silly enough for you? If so press 'x' otherwise the enter key.")
 	if try_Again.lower() == 'x':
 		break
 
-"""Stopping the silly"""
+		"""stopping the silly"""
 input('\nPress enter to exit.')
